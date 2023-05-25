@@ -736,7 +736,7 @@ ul {
 }
 
 
-@media(min-width: 1920px){
+@media(min-width: 321px) and (max-width: 1920px) {
    
     header{
         margin-left: 75px;
