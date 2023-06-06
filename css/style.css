@@ -13,6 +13,8 @@
 body{
     margin: 0;
     padding: 0;
+    width: 320px;
+    height: 7269px;
     align-items: center;
     background-color: var(--branco);
     font-family: 'Montserrat', sans-serif;
@@ -22,17 +24,11 @@ body{
 header{
     margin-left: 15px;
     margin-right: 15px;
-    
-
 }
 
 main{
     margin-left: 15px;
     margin-right: 15px;
-    
-    
-
-
 }
 
 .navbar{
@@ -92,6 +88,11 @@ main{
     filter: invert(5%) sepia(78%) saturate(6858%) hue-rotate(276deg) brightness(97%) contrast(101%);
 }
 
+.projetos{
+    width: 320px;
+    height: auto;
+}
+
 .Header___logo{
     width: 290px;
     height: 308px;
@@ -110,7 +111,7 @@ main{
     position: absolute; 
 }
 
-.banner__principal p{
+.projetos p{
     width: 201px;
     height: 100px;
     font-weight: 600;
@@ -146,19 +147,24 @@ main{
 }
 
 .botao__calculo:hover{
-border: 4px solid #5A27F2;
-border-radius: 8px;
+    border: 4px solid #5A27F2;
+    border-radius: 8px;
 }
 
 .botao__calculo:focus{
-border: 4px solid #E1D4FF;
-border-radius: 8px;
+    border: 4px solid #E1D4FF;
+    border-radius: 8px;
 }
 
 .botao__calculo:active{
-background-color: var(--azulservicos);
-border-radius: 8px;
-border: none;
+    background-color: var(--azulservicos);
+    border-radius: 8px;
+    border: none;
+}
+
+.sobre{
+    width: 320px;
+    height: auto;
 }
 
 .title__h2{
@@ -277,6 +283,11 @@ border: none;
     margin-left: 15px;
     margin-top: 15px;
     margin-bottom: 0px;
+}
+
+.comotrabalhamos{
+    width: 290px;
+    height: auto;
 }
 
 .title__h3{
@@ -429,6 +440,11 @@ border: none;
     color:var(--branco);
 }
 
+.vantagens{
+    width: 320px;
+    height: auto;
+}
+
 .vantagens__itens p{
     width: 204px;
     height: 225px;
@@ -510,6 +526,11 @@ border: none;
     border: 1px solid #D3D7DB;
 }
 
+.servicos{
+    width: 290px;
+    height: auto;
+}
+
 .servicos__imagem img{
     width: 290px;
     height: 148px;
@@ -578,7 +599,7 @@ border: none;
 
 footer{
     width: 320px;
-    height: 1203px;
+    height: 1257px;
     margin-top: 20px;
     background-color:var(--pretofooter);
 }
@@ -737,15 +758,27 @@ ul {
 
 
 @media(min-width: 321px) and (max-width: 1920px) {
-   
-    header{
-        margin-left: 75px;
-        margin-right: 75px;
-    }
+
+    body{
+    margin: 0;
+    padding: 0;
+    width: 1920px;
+    height: 4841px;
+    background-color: var(--branco);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    }  
 
     main{
-        margin-left: 75px;
-        margin-right: 75px;
+    margin-left: 75px;
+    margin-right: 75px;
+    }
+
+    header{
+    margin-left: 60px;
+    margin-bottom: 50px;
+    width: 1920px;
+    height: 100px;
     }
 
     .navbar{
@@ -828,6 +861,11 @@ ul {
     filter: invert(5%) sepia(78%) saturate(6858%) hue-rotate(276deg) brightness(97%) contrast(101%);
     }
 
+    .projetos{
+    width: 1770px;
+    height: auto;
+    }
+
     .Header___logo{
     width: 1770px;
     height: 620px;
@@ -848,7 +886,7 @@ ul {
     color:var(--pretofooter);
     }
 
-    .banner__principal p{
+    .projetos p{
     width: 680px;
     height: 93px;
     margin-top: 290px;
@@ -901,7 +939,7 @@ ul {
     color:var(--branco);
     }
 
-    .sobre__nos{
+    .sobre{
     width: 1920px;
     height: 989px;
     margin-bottom: 50px;
@@ -1321,7 +1359,7 @@ ul {
     }
 
     .servicos{
-        width: 1950px;
+        width: 1767px;
         height: auto;
     }
 
@@ -1400,8 +1438,8 @@ ul {
     }
 
     footer{
-    width: auto;
-    height: 800px;
+    width: 1920px;
+    height: auto;
     background-color:var(--pretofooter);
     margin-top: 100px;
     }
