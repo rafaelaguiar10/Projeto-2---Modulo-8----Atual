@@ -3,4 +3,4 @@ Opção escolhida:
 opção 2: mobile + desktop.
 Responsividade configurada para as resoluções mobile e desktop.
 
-O espaçamento do lado direito foi remomvido e margens revisadas de acordo com o figma.
+O espaçamento do lado direito foi removido e margens revisadas de acordo com o figma.
