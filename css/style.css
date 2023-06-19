@@ -1511,7 +1511,7 @@ ul {
 
     footer{
     width: 1920px;
-    height: auto;
+    height: 750px;
     background-color:var(--pretofooter);
     margin-top: 100px;
     }
@@ -1626,6 +1626,7 @@ ul {
     gap: 10px;
     background-color: var(--lilas);
     margin-left: 140px;
+    margin-top: 10px;
     cursor: pointer;
     }
 
