@@ -26,10 +26,7 @@ header{
     margin-right: 15px;
 }
 
-main{
-    margin-left: 15px;
-    margin-right: 15px;
-}
+
 
 .navbar{
     display: flex;
@@ -97,6 +94,8 @@ main{
     width: 290px;
     height: 308px;
     border-radius: 24px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .Title__Principal{
@@ -107,7 +106,7 @@ main{
     line-height: 28.8px;
     font-family: 'Montserrat', sans-serif;
     margin-top: 20px;
-    margin-left: 15px;
+    margin-left: 30px;
     position: absolute; 
 }
 
@@ -119,7 +118,7 @@ main{
     font-size: 14px;
     line-height: 19.6px;
     margin-top: 86px;
-    margin-left: 15px;
+    margin-left: 30px;
     position: absolute;
 }
 
@@ -128,7 +127,7 @@ main{
     height: 44px;
     margin-top: -100px;
     margin-bottom: 54px;
-    margin-left: 15px;
+    margin-left: 30px;
     border-radius: 8px;
     border: none;
     position: absolute;
@@ -177,6 +176,7 @@ main{
     color:var(--pretofooter);
     margin-top: 50px;
     margin-bottom: 30px;
+    margin-left: 15px;
 }
 
 .sobrenos__texto p{
@@ -188,12 +188,16 @@ main{
     line-height: 25.2px;
     margin-top: 17px;
     margin-bottom: 24px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .sobrenos__banner img{
     width: 290px;
     height: 200px;
-    border-radius: 16px;  
+    border-radius: 16px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .container__texto{
@@ -204,6 +208,8 @@ main{
     border: 1px solid #D3D7DB;
     position: absolute;
     background-color: var(--branco);
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .botao__mais{
@@ -275,10 +281,45 @@ main{
     border-radius: 16px;
     border: 1px solid #D3D7DB;
     margin-bottom: 16px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.title__h3{
+    width: 260px;
+    height: 25px;
+    margin-top: 10px;
+    margin-bottom: -3px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 25.2px;
+    color:var(--pretofooter);
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .arquitetura__consultoria img{
     width: 58px;
+    height: 64px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.arquitetura__servico{
+    width: 290px;
+    height: 260px;
+    margin-top: 25px;
+    background-color: var(--branco);
+    border-radius: 16px;
+    border: 1px solid #D3D7DB;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.arquitetura__servico img{
+    width: 106px;
     height: 64px;
     margin-left: 15px;
     margin-top: 15px;
@@ -290,17 +331,17 @@ main{
     height: auto;
 }
 
-.title__h3{
-    width: 260px;
+.title__trabalhamos{
+    width: 182px;
     height: 25px;
-    margin-left: 15px;
-    margin-top: 10px;
-    margin-bottom: -3px;
+    margin-top: 16px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 14px;
     line-height: 25.2px;
     color:var(--pretofooter);
+    margin-left: 15px;
+    margin-right: 123px;
 }
 
 .arquitetura p{
@@ -313,24 +354,6 @@ main{
     font-size: 14px;
     line-height: 25.2px;
     color:var(--pretofooter);
-
-}
-
-.arquitetura__servico{
-    width: 290px;
-    height: 260px;
-    margin-top: 25px;
-    background-color: var(--branco);
-    border-radius: 16px;
-    border: 1px solid #D3D7DB;
-}
-
-.arquitetura__servico img{
-    width: 106px;
-    height: 64px;
-    margin-left: 15px;
-    margin-top: 15px;
-    margin-bottom: 0px;
 }
 
 .banner__trabalhamos img{
@@ -338,6 +361,8 @@ main{
     height: 120px;
     margin-top: 26px;
     border-radius: 24px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 .texto__trabalhamos p{
     width: 290px;
@@ -349,6 +374,8 @@ main{
     line-height: 25.2px;
     color:var(--pretofooter);
     margin-bottom: 24px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .botoes__trabalhamos{
@@ -357,6 +384,8 @@ main{
     margin-bottom: 39px;
     display: flex;
     flex-direction: row;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .botaomais__trabalhamos{
@@ -454,6 +483,7 @@ main{
     font-size: 14px;
     line-height: 25.2px;
     margin-top: -40px;
+    
 }
 
 .vantagens__item1{
@@ -464,6 +494,8 @@ main{
     margin-bottom: 10px;
     background-color: var(--branco);
     border: 1px solid #D3D7DB;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .vantagens__item2{
@@ -474,6 +506,8 @@ main{
     margin-bottom: 10px;
     background-color: var(--branco);
     border: 1px solid #D3D7DB;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .vantagens__item3{
@@ -484,6 +518,8 @@ main{
     margin-bottom: 10px;
     background-color: var(--branco);
     border: 1px solid #D3D7DB;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .vantagens__item4{
@@ -494,6 +530,8 @@ main{
     margin-bottom: 10px;
     background-color: var(--branco);
     border: 1px solid #D3D7DB;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .vantagens__item5{
@@ -504,6 +542,8 @@ main{
     margin-bottom: 10px;
     background-color: var(--branco);
     border: 1px solid #D3D7DB;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .vantagens__item6{
@@ -514,6 +554,8 @@ main{
     margin-bottom: 10px;
     background-color: var(--branco);
     border: 1px solid #D3D7DB;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .vantagens__item7{
@@ -524,6 +566,8 @@ main{
     margin-bottom: 10px;
     background-color: var(--branco);
     border: 1px solid #D3D7DB;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .servicos{
@@ -535,7 +579,9 @@ main{
     width: 290px;
     height: 148px;
     border-radius: 16px;
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .servicos__textoeimagem{
@@ -544,8 +590,10 @@ main{
     border: 1px solid #FAFAFA;
     position: relative;
     margin-top: -20px;
-    margin-bottom: 10px;
+    margin-bottom: 16px;
     background-color: var(--branco);
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .servicos__textoeimagem h3{
@@ -619,12 +667,24 @@ footer{
 .formulario__footer{
     width: 290px;
     height: 52px;
-    margin-top: 5px;
+    margin-top: 16px;
     border: none;
     border-radius: 8px;
     background-color: var(--cinzaformulario);
     margin-left: 15px;
     margin-right: 15px;
+    color:var(--cinzaplaceholder);
+}
+
+.formulario__footer::placeholder{
+    width: 49px;
+    height: 25px;
+    margin-top: 14px;
+    margin-left: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25.2px;
     color:var(--cinzaplaceholder);
 }
 
@@ -641,7 +701,7 @@ footer{
 .politica__privacidade{
     width: 261px;
     height: 32px;
-    margin-left: 8px;
+    margin-left: 15px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 12px;
@@ -654,6 +714,7 @@ footer{
     height: 44px;
     margin-top: 16px;
     margin-left: 15px;
+    margin-right: 15px;
     border-radius: 8px;
     border: none;
     padding: 13px 32px 13px 32px;
@@ -703,6 +764,7 @@ footer{
     height: 250px;
     margin-top: 25px;
     margin-left: 15px;
+    margin-right: 15px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -713,7 +775,7 @@ footer{
 .logo__footer img{
     width: 107px;
     height: 59px;
-    margin-top: 750px;
+    margin-top: 800px;
     margin-left: 15px;
     gap: 5px;
     cursor: pointer;
@@ -724,7 +786,7 @@ footer{
     width: 140px;
     height: 18px;
     margin-left: 15px;
-    margin-top: 850px;
+    margin-top: 900px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 14px;
@@ -750,7 +812,7 @@ ul {
     justify-content: space-between;
     width: 104px;
     height: 40px;
-    margin-top: 1000px;
+    margin-top: 1050px;
     margin-left: 15px;
     gap: 24px;
     position: absolute;
@@ -769,13 +831,7 @@ ul {
     font-family: 'Open Sans', sans-serif;
     }  
 
-    main{
-    margin-left: 75px;
-    margin-right: 75px;
-    }
-
-    header{
-    margin-left: 60px;
+   header{
     margin-bottom: 50px;
     width: 1920px;
     height: 100px;
@@ -786,10 +842,8 @@ ul {
     height: 100px;
     background-color: var(--lilasheader);
     border-radius: 0px 0px 32px 32px;
-    margin: 0px;
-    margin-left: -60px;
     margin-bottom: 50px;
-    margin-top: 0px;
+    
     }
 
     .botoes__estilizados{
@@ -864,6 +918,8 @@ ul {
     .projetos{
     width: 1770px;
     height: auto;
+    margin-left: 75px;
+    margin-right: 75px;
     }
 
     .Header___logo{
@@ -955,11 +1011,14 @@ ul {
     color:var(--pretofooter);
     margin-bottom: 50px;
     margin-top: 15px;
+    margin-left: 75px;
     }
+    
     .sobrenos__texto p{
     width: 890px;
     height: 256px;
     margin-top: 20px;
+    margin-left: 75px;
     text-align: justify;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -968,16 +1027,17 @@ ul {
     color:var(--pretofooter);
     }
     .sobrenos__banner img{
-    width: 750px;
+    width: 810px;
     height: 800px;
     border-radius: 32px;
     margin-left: 1030px;
+    margin-right: 75px;
     margin-top: -350px;
     position: absolute;
     }
 
     .container__texto{
-    width: 750px;
+    width: 810px;
     height: 270px;
     border: 1px solid #D3D7DB;
     border-radius: 32px;
@@ -985,6 +1045,7 @@ ul {
     position: absolute;
     margin-top: 230px;
     margin-left: 1030px;
+    margin-right: 75px;
     }
 
     .container__texto p{
@@ -1047,7 +1108,7 @@ ul {
     }
 
     .arquitetura__consultoria{
-    width: 870px;
+    width: 780px;
     height: auto;
     border-radius: 32px;
     padding: 40px 60px 40px 60px;
@@ -1055,6 +1116,7 @@ ul {
     border: 1px solid #D3D7DB;
     margin-bottom: 20px;
     margin-top: -50px;
+    margin-left: 75px;
     }
 
     .arquitetura__consultoria img{
@@ -1065,13 +1127,14 @@ ul {
     }
 
     .arquitetura__servico{
-    width: 870px;
+    width: 780px;
     height: auto;
     border-radius: 32px;
     padding: 40px 60px 40px 60px;
     background-color: var(--branco);
     border: 1px solid #D3D7DB;
     margin-bottom: 80px;
+    margin-left: 75px;
     }
 
     .arquitetura__servico img{
@@ -1106,6 +1169,7 @@ ul {
     .comotrabalhamos{
     width: 1772px;
     height: auto;
+    
     }
 
     .title__trabalhamos{
@@ -1117,10 +1181,11 @@ ul {
     line-height: 31.2px;
     color:var(--pretofooter);
     margin-top: -550px;
+    margin-left: 75px;
     }
 
     .banner__trabalhamos img{
-    width: 750px;
+    width: 800px;
     height: 427px;
     margin-left: 977px;
     margin-top: 50px;
@@ -1138,6 +1203,7 @@ ul {
     font-size: 18px;
     line-height: 32.4px;
     color:var(--pretofooter);
+    margin-left: 75px;
     }
 
     .botaomais__trabalhamos{
@@ -1150,6 +1216,7 @@ ul {
     border:none;
     margin-top: 0px;
     cursor: pointer;
+    margin-left: 75px;
     }
 
     .botaomais__trabalhamos:hover{
@@ -1182,10 +1249,9 @@ ul {
     height: 58px;
     border-radius: 8px;
     padding: 18px 32px 18px 32px;
-    gap: 20px;
     background-color: var(--branco);
     border: 1px solid #845EF7;
-    margin-left: 20px;
+    margin-left: 30px;
     margin-top: 0px;
     cursor: pointer;
     }
@@ -1203,7 +1269,7 @@ ul {
     
 
     .textobotao__contrate{
-    width: auto;
+    width: 123px;
     height: 22px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -1242,6 +1308,7 @@ ul {
     font-size: 18px;
     line-height: 32.4px;
     color:var(--pretofooter);
+    margin-left: 75px;
     }
     
     
@@ -1279,6 +1346,7 @@ ul {
         "vantagens__item4 vantagens__item5 vantagens__item5 vantagens__item6"
         "vantagens__item7 vantagens__item7 vantagens__item7 vantagens__item6";
     gap: 5px 5px;
+    margin-left: 75px;
     }
     
     .vantagens__item1{
@@ -1304,7 +1372,7 @@ ul {
     }
     
     .vantagens__item3{
-    width: 250px;
+    width: 280px;
     height: 176px;
     margin-top: 39px;
     border-radius: 32px;
@@ -1337,7 +1405,7 @@ ul {
     }
     
     .vantagens__item6{
-    width: 250px;
+    width: 280px;
     height: 455px;
     margin-top: 39px;
     border-radius: 32px;
@@ -1359,12 +1427,12 @@ ul {
     }
 
     .servicos{
-        width: 1767px;
-        height: auto;
+    width: 1767px;
+    height: auto;
     }
 
     .servicos__textoeimagem{
-    width: 573px;
+    width: 560px;
     height: auto;
     border: 1px solid #FAFAFA;
     position: relative;
@@ -1375,7 +1443,7 @@ ul {
 
 
     .servicos__imagem img{
-    width: 573px;
+    width: 560px;
     height: 165px;
     border-radius: 16px 16px 0px 0px;
     }
@@ -1428,6 +1496,8 @@ ul {
     display: flex;
     flex-direction: row;
     gap: 35px;
+    margin-left: 75px;
+    margin-right: 78px;
     
     }
     
@@ -1435,6 +1505,8 @@ ul {
     display: flex;
     flex-direction: row;
     gap: 35px;
+    margin-left: 75px;
+    margin-right: 78px;
     }
 
     footer{
@@ -1522,6 +1594,18 @@ ul {
     color:var(--cinzaplaceholder);
     margin-bottom: 30px;
     margin-top: 10px;
+    }
+
+    .formulario__footer::placeholder{
+    width: 55px;
+    height: 32px;
+    margin-top: 14px;
+    margin-left: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color:var(--cinzaplaceholder);
     }
 
     .formulario__footer:hover{
