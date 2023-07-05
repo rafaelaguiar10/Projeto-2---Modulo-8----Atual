@@ -1,6 +1,2 @@
-# Projeto-2---Modulo-8----Atual (Atualizações para o módulo 09)
-Opção escolhida:
-opção 2: mobile + desktop.
-Responsividade configurada para as resoluções mobile e desktop.
-
-O espaçamento do lado direito foi removido e margens revisadas de acordo com o figma.
+# Projeto-2---Modulo-8----Atual (Atualizações para o módulo 10)
+Efetuado todas as animações/transições e transformações dos elementos solicitados no bloco 4 - módulo 10, com excessão do desafio.
