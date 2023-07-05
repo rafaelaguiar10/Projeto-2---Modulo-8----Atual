@@ -212,11 +212,11 @@
                     <img src="./assets/Footer/Logo-footer.png" alt="Logo Design Systems">
                 </div>
                 <ul class="listagem__estilizada">
-                    <li>Sobre nós</li><br>
-                    <li><u>Como trabalhamos</u></li><br>
-                    <li class="lista__estilizada">Vantagens</li><br>
-                    <li>Serviços</li><br>
-                    <li>Contatos</li>
+                    <li class="lista__sobre">Sobre nós</li><br>
+                    <li class="lista__trabalhamos">Como trabalhamos</li><br>
+                    <li class="lista__vantagens">Vantagens</li><br>
+                    <li class="lista__servicos">Serviços</li><br>
+                    <li class="lista__contatos">Contatos</li>
                 </ul>
                     <div class="redes__sociais">
                         <a href="https://www.instagram.com/"><img src="./assets/Footer/instagram.png" alt="Logo do Instagram"></a>
@@ -227,8 +227,8 @@
             <div class="item__formulario">
                 <h2 class="title__footer">Envie sua aplicação</h2>
                 <form>
-                    <div>
-                        <input class="formulario__footer" type="text" placeholder="Nome*">
+                    <div class="pulsar">
+                        <input class="formulario__footer" type="text" placeholder="Nome*" required/>
                     </div>
                     <div>
                         <select name="select" placeholder="Cidade">
@@ -241,18 +241,18 @@
                         <input class="formulario__footer" type="date" name="date" placeholder="18.10.2021">
                     </div>
                     <div>
-                        <input class="formulario__footer" type="email" placeholder="Email*">
+                        <input class="formulario__footer" type="email" placeholder="Email*" required/>
                     </div>
                     <div>
                         <input class="formulario__footer" type="text" placeholder="Mensagem">
                     </div>
+
+                    <div>
+                        <button class="botao__footer">
+                        <span class="texto__botaofooter">Concluir</span>
+                        </button>
+                    </div>
                 </form>
-    
-                <div>
-                    <button class="botao__footer">
-                    <span class="texto__botaofooter">Concluir</span>
-                    </button>
-                </div>
     
                 <div>
                     <label class="politica__privacidade"><input class="inpt__check" type="checkbox"> Concordo com a Política de privacidade.</label>

@@ -850,7 +850,7 @@ ul {
 }
 
 
-@media(min-width: 321px) and (max-width: 1920px) {
+@media(min-width: 330px) and (max-width: 1920px) {
 
     body{
     margin: 0;
@@ -986,6 +986,44 @@ ul {
     color:var(--pretofooter);
     }
 
+    .Title__Principal, .projetos p{
+    -webkit-animation:fadeInUp 2s ease backwards;
+    -webkit-animation-iteration-count: 3;}
+
+    @-webkit-keyframes fadeInUp{
+    0%{transform:translate(0px, 100px); opacity: 0;}
+    100%{transform:translate(0px, 0); opacity: 1;}
+    }
+    }
+
+    .botao__calculo{
+    -webkit-animation: fadeInAnimation ease 2s;
+    -webkit-animation-iteration-count: 3;
+    }
+    
+    @-webkit-keyframes fadeInAnimation {
+    0% {
+    opacity: 0;
+    }
+    100% {
+    opacity: 1;
+    }
+    }
+
+    .botao__calculo{
+    -webkit-animation-name: animationdestaque;
+    -webkit-animation-iteration-count: 1000;
+    }
+            
+    @-webkit-keyframes animationdestaque {
+    0% {
+    background-color: var(--lilas);
+    }
+    100% {
+    background-color: #4B0082;
+    }
+    }
+    
     .botao__calculo{
     width: 215px;
     height: 58px;
@@ -1390,7 +1428,7 @@ ul {
     background-color: var(--branco);
     border: 1px solid #D3D7DB;
     }
-    
+  
     .vantagens__item2{
     width: auto;
     height: 176px;
@@ -1400,7 +1438,7 @@ ul {
     margin-bottom: 10px;
     background-color: var(--branco);
     border: 1px solid #D3D7DB;
-    }
+    }  
     
     .vantagens__item3{
     width: 280px;
@@ -1457,6 +1495,11 @@ ul {
     border: 1px solid #D3D7DB;
     }
 
+    .vantagens__item1:hover, .vantagens__item2:hover, .vantagens__item3:hover, .vantagens__item4:hover, .vantagens__item5:hover, .vantagens__item6:hover, .vantagens__item7:hover{
+    -webkit-transform: translateY(-10px);  
+    box-shadow: 15px 15px lightgray;
+    }
+
     .servicos{
     width: 1920px;
     height: auto;
@@ -1470,6 +1513,11 @@ ul {
     margin-top: -5px;
     margin-bottom: 10px;
     background-color: var(--branco);
+    }
+
+    .servicos__textoeimagem:hover {
+    -webkit-transform: translateY(-20px);  
+    transform: translateY(-20px);
     }
 
 
@@ -1585,8 +1633,8 @@ ul {
     padding: 0;
     cursor: pointer;
     }
-    
-    .lista__estilizada{
+
+    .lista__sobre:hover, .lista__trabalhamos:hover, .lista__vantagens:hover, .lista__servicos:hover, .lista__contatos:hover {
     color:var(--lilas);
     text-decoration: underline;
     }
@@ -1668,6 +1716,21 @@ ul {
     font-weight: 400;
     font-size: 16px;
     line-height: 200%;
+    }
+
+    input:invalid {
+    border: 1px solid red;
+    -webkit-animation-name: pulsar;
+    -webkit-animation: pulsar infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-duration: 5s;
+    }
+    
+    @-webkit-keyframes pulsar{
+    0% {-webkit-transform: scale(1);}
+    25% {-webkit-transform: scale(1.1);}
+    50% {-webkit-transform: scale(1);}
+    100% {-webkit-transform: scale(1);}
     }
 
     .inpt__check{
@@ -1778,4 +1841,3 @@ ul {
     color:var(--branco);
         
     }
-}
