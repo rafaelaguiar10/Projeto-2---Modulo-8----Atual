@@ -120,6 +120,57 @@ header{
     position: absolute;
 }
 
+.Title__Principal, .projetos p{
+    -webkit-animation:fadeInUp 2s ease backwards;
+    -webkit-animation-iteration-count: 3;}
+
+    @-webkit-keyframes fadeInUp{
+    0%{transform:translate(0px, 100px); opacity: 0;}
+    100%{transform:translate(0px, 0); opacity: 1;}
+    }
+
+    .botao__calculo{
+    -webkit-animation: fadeInAnimation ease 2s;
+    -webkit-animation-iteration-count: 3;
+    }
+    
+    @-webkit-keyframes fadeInAnimation {
+    0% {
+    opacity: 0;
+    }
+    100% {
+    opacity: 1;
+    }
+    }
+
+        .botao__calculo{
+    -webkit-animation-name: animationdestaque;
+    -webkit-animation-iteration-count: 1000;
+    }
+            
+    @-webkit-keyframes animationdestaque {
+    0% {
+    background-color: var(--lilas);
+    }
+    100% {
+    background-color: #4B0082;
+    }
+    }
+
+    .botao__calculo{
+        -webkit-animation-name: animationdestaque;
+        -webkit-animation-iteration-count: 1000;
+        }
+                
+        @-webkit-keyframes animationdestaque {
+        0% {
+        background-color: var(--lilas);
+        }
+        100% {
+        background-color: #4B0082;
+        }
+        }
+
 .botao__calculo{
     width: 174px;
     height: 44px;
@@ -568,6 +619,11 @@ header{
     margin-right: 15px;
 }
 
+.vantagens__item1:hover, .vantagens__item2:hover, .vantagens__item3:hover, .vantagens__item4:hover, .vantagens__item5:hover, .vantagens__item6:hover, .vantagens__item7:hover{
+    -webkit-transform: translateY(-10px);  
+    box-shadow: 15px 15px lightgray;
+}
+
 .servicos{
     width: 290px;
     height: auto;
@@ -633,6 +689,11 @@ header{
     position: absolute;
 }
 
+.servicos__textoeimagem:hover {
+    -webkit-transform: translateY(-20px);  
+    transform: translateY(-20px);
+    }
+
 .servicos__textoeimagem img:hover{
     background-color: var(--lilas);
     border-radius: 8px;
@@ -644,7 +705,7 @@ header{
 }
 
 footer{
-    width: 320px;
+    width: 329px;
     height: 1450px;
     margin-top: 20px;
     background-color:var(--pretofooter);
@@ -832,10 +893,25 @@ ul {
     cursor: pointer;
 }
 
-.lista__estilizada{
+.lista__sobre:hover, .lista__trabalhamos:hover, .lista__vantagens:hover, .lista__servicos:hover, .lista__contatos:hover {
     color:var(--lilas);
     text-decoration: underline;
 }
+
+input:invalid {
+    border: 1px solid red;
+    -webkit-animation-name: pulsar;
+    -webkit-animation: pulsar infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-duration: 5s;
+    }
+    
+    @-webkit-keyframes pulsar{
+    0% {-webkit-transform: scale(1);}
+    25% {-webkit-transform: scale(1.1);}
+    50% {-webkit-transform: scale(1);}
+    100% {-webkit-transform: scale(1);}
+    }
 
 .redes__sociais{
     display: flex;
@@ -850,7 +926,7 @@ ul {
 }
 
 
-@media(min-width: 330px) and (max-width: 1920px) {
+@media(min-width: 321px) and (max-width: 1920px) {
 
     body{
     margin: 0;
@@ -860,7 +936,7 @@ ul {
     background-color: var(--branco);
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
-    }  
+    }
 
    header{
     margin-bottom: 50px;
@@ -993,7 +1069,6 @@ ul {
     @-webkit-keyframes fadeInUp{
     0%{transform:translate(0px, 100px); opacity: 0;}
     100%{transform:translate(0px, 0); opacity: 1;}
-    }
     }
 
     .botao__calculo{
@@ -1839,5 +1914,6 @@ ul {
     font-size: 16px;
     line-height: 32px;
     color:var(--branco);
-        
     }
+}
+
