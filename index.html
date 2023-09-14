@@ -12,9 +12,11 @@
     <header>
         <div class="banner__principal">
         
-            <nav class="navbar">
-                <img class="menu__mobile" src="./assets/Header/Menu mobile2.png" alt="Menu da página">
-                <img class="logo__design" src="./assets/Header/Logo.png" alt="Logo Design Systems">
+            <nav class="navbar" id="navbar">
+                <img class="menu__mobile" src="./assets/Header/Menu mobileSVG.svg" alt="Menu da página">
+                <span class= menu__mobile onclick="changeMenu()"></span>
+                    <script src="./javascript/MenuHamburger.js"></script>
+                    <img class="logo__design" src="./assets/Header/Logo.png" alt="Logo Design Systems">
                 <img class="lupa__design" src="./assets/Header/search.svg" alt="Lupa para busca">
                     <div class="container__botoes">
                         <button class="botoes__estilizados">
@@ -33,22 +35,39 @@
                             <span class="nav__textobotao">Contatos</span>
                         </button>
                     </div>
+                    
+                    <div class="menu__header" id="menu__header">
+                        <div class="menu__items">
+                          <a href="">A empresa</a>
+                          <a href="">Projetos de Alta complexidade</a>
+                          <a href="">Fale Conosco</a>
+                    </div>
+                    
             </nav>
+            
         </div>
+        
     </header>
 
 
     <main>
 
         <section class="projetos">
-            <h1 class="Title__Principal">Projetos de alta complexidade</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <img src="./assets/Header/banner-principal.png" class="Header___logo" alt="Banner para projetos de alta complexidade">
-            <div>
-                <button class="botao__calculo">
-                <span class="texto__botao">Fazer o cálculo</span>
-                </button>
-            </div>
+            
+                
+                <div class="banner__maior" id="parallax">
+                    <h1 class="Title__Principal" id="Title__Principal">Projetos de alta complexidade</h1>
+                    <span class="projetos__paragrafo" id="projetos__paragrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+
+                
+                </div>
+
+                <div>
+                    <button class="botao__calculo" id="botao__calculo">
+                    <span class="texto__botao">Fazer o cálculo</span>
+                    </button>
+                </div>
+
         </section>
 
 
@@ -71,18 +90,30 @@
                     </div>
                 </div>
             
-            <div class="arquitetura">
-                <div class="arquitetura__consultoria">
+            <div class="abas__sobrenos" id="abas__sobrenos">
+                <button onclick="showConsultoria()" class="botao__consultoria">
+                    <span class="textobotao__consultoria">Consultoria</span>
+                </button>
+                <button onclick="showServicos()" class="botao__servicos">
+                    <span class="textobotao__servicos">Serviços</span>
+                </button>
+            </div>
+                <div class="arquitetura">
+                    <div class="arquitetura__consultoria" id="arquitetura__consultoria">
                     <img src="./assets/Sobre Nós/consultoria.svg" alt="Serviço de Consultoria e decoração">
                     <h3 class="title__h3">Consultoria de arquitetura e decoração</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
-                <div class="arquitetura__servico">
+                <div class="arquitetura__servico" id="arquitetura__servico">
                     <img src="./assets/Sobre Nós/servicosarquiteto.svg" alt="Serviço para arquitetura">
                     <h3 class="title__h3">Serviço Arquiteto</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
             </div>
+            <script src="./javascript/Abas.js"></script>
+            <script>showConsultoria()</script>
+            
+
         </section>
 
         <section class="comotrabalhamos">
@@ -99,7 +130,7 @@
                 </p>
             </div>
             <div class="botoes__trabalhamos">
-                <button class="botaomais__trabalhamos">
+                <button class="botaomais__trabalhamos" id="botaomais__trabalhamos" onclick="openModal()">
                     <span class="textobotao__trabalhamos">Mais</span>
                 </button>
 
@@ -107,6 +138,17 @@
                     <span class="textobotao__contrate">Contrate-nos</span>
                 </button>
             </div>
+            <div class="modal__container" id="modal">
+                <div class="modal">
+                  <div class="modal__title"> <b>Orçamento</b> </div>
+                  <p class="modal__content">Solicite um Orçamento sem compromisso</p>
+                  <button class="close__modal" onclick="closeModal()">
+                    <span class="texto__close">Fechar</span>
+                </button>
+                <script src="./javascript/pop-up.js"></script>
+            </div>
+
+
         </section>
 
         <section class="vantagens">
