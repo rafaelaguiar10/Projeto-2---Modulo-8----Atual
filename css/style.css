@@ -1178,7 +1178,7 @@ header{
     background-image: url(../assets/Header/banner-principal.png);
     background-attachment: fixed;
     background-size: cover;
-    background-position-x: -50%;
+    background-position-x: -200%;
     background-position-y: -200%;    
 }
 
