@@ -10,6 +10,8 @@
     --pretofooter: #000000;
 }
 
+@media (min-width: 320px) {
+
 body{
     margin: 0;
     padding: 0;
@@ -1067,9 +1069,9 @@ input:invalid {
     position: absolute;
 }
 
+}
 
-
-@media(min-width: 768px) and (max-width: 1919px){
+@media(min-width: 768px) {
 
 body{
     margin: 0;
@@ -2152,27 +2154,6 @@ input:invalid {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media(min-width: 1920px) {
 
     body{
@@ -2285,6 +2266,7 @@ input:invalid {
     height: 620px;
     border-radius: 32px;
     margin-bottom: 50px;
+    margin-left: -5px;
     
     }
     .banner__maior{
@@ -2859,7 +2841,7 @@ input:invalid {
         "vantagens__item1 vantagens__item1 vantagens__item2 vantagens__item3"
         "vantagens__item4 vantagens__item5 vantagens__item5 vantagens__item6"
         "vantagens__item7 vantagens__item7 vantagens__item7 vantagens__item6";
-    gap: 5px 5px;
+    gap: 5px;
     margin-left: 75px;
     }
     
@@ -2894,6 +2876,7 @@ input:invalid {
     margin-bottom: 10px;
     background-color: var(--branco);
     border: 1px solid #D3D7DB;
+    margin-left: 10px;
     }
     
     .vantagens__item4{
@@ -2905,6 +2888,7 @@ input:invalid {
     margin-bottom: 10px;
     background-color: var(--branco);
     border: 1px solid #D3D7DB;
+    margin-left: 10px;
     }
     
     .vantagens__item5{
@@ -2938,6 +2922,7 @@ input:invalid {
     margin-bottom: 10px;
     background-color: var(--branco);
     border: 1px solid #D3D7DB;
+    margin-left: 10px;
     }
 
     .vantagens__item1:hover, .vantagens__item2:hover, .vantagens__item3:hover, .vantagens__item4:hover, .vantagens__item5:hover, .vantagens__item6:hover, .vantagens__item7:hover{
@@ -3290,5 +3275,6 @@ input:invalid {
     line-height: 32px;
     color:var(--branco);
     }
+
 }
 
