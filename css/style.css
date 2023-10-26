@@ -10,7 +10,7 @@
     --pretofooter: #000000;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 320px) and (max-width: 767px){
 
 body{
     margin: 0;
@@ -1071,7 +1071,7 @@ input:invalid {
 
 }
 
-@media(min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1023px) {
 
 body{
     margin: 0;
@@ -2154,7 +2154,7 @@ input:invalid {
 
 
 
-@media(min-width: 1920px) {
+@media(min-width: 1024px) and (max-width: 1920px) {
 
     body{
     margin: 0;
@@ -2193,6 +2193,7 @@ input:invalid {
     padding: 18px 20px 18px 20px;
     gap: 16px;
     margin-right: 40px;
+    margin-top: -80px;
     background-color: var(--lilasheader);
     cursor: pointer;
     }
@@ -2227,7 +2228,7 @@ input:invalid {
     display: flex;
     flex-direction: row;
     margin-left: 350px;
-    margin-top: 21px;
+    margin-top: 20px;
     }    
     
     .menu__mobile{
@@ -2237,7 +2238,7 @@ input:invalid {
     .logo__design{
     width: 106.06px;
     height: 58.33px;
-    margin-top: 21px;
+    margin-top: 20px;
     margin-left: 75px;
     gap: 5px;
     cursor: pointer;
@@ -2247,7 +2248,9 @@ input:invalid {
     width: 24px;
     height: 24px;
     margin-top: 40px;
-    margin-left: 1821px;
+    margin-left: 1650px;
+    margin-top: 40px;
+    position: absolute;
     }
 
     .lupa__design:hover{
@@ -2493,6 +2496,16 @@ input:invalid {
     color:var(--branco);
     }
 
+    .textobotao__trabalhamos{
+    width: 40px;
+    height: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color:var(--branco);
+    }
+
     .arquitetura__consultoria{
     width: 780px;
     height: auto;
@@ -2645,17 +2658,17 @@ input:invalid {
     }
 
     .botaomais__trabalhamos{
-    width: 98px;
-    height: 58px;
-    border-radius: 8px;
-    padding: 18px 32px 18px 32px;
-    gap: 20px;
-    background-color: var(--lilas);
-    border:none;
-    margin-top: 0px;
-    cursor: pointer;
-    margin-left: 75px;
-    }
+        width: 98px;
+        height: 58px;
+        border-radius: 8px;
+        padding: 18px 32px 18px 32px;
+        gap: 20px;
+        background-color: var(--lilas);
+        border:none;
+        margin-top: 0px;
+        cursor: pointer;
+        margin-left: 75px;
+        }
 
     .botaomais__trabalhamos:hover{
     border: 4px solid #5A27F2;
@@ -2771,6 +2784,7 @@ input:invalid {
       .modal__content{
         font-size: medium;
         text-align: left;
+        margin-top: 30px;
     
       }
     
@@ -2788,6 +2802,7 @@ input:invalid {
         background-color: rgb(97, 97, 255);
         color: white;
         cursor:pointer;
+        margin-top: 40px;
       }
 
     .vantagens{
@@ -3058,8 +3073,8 @@ input:invalid {
     font-size: 18px;
     line-height: 22px;
     color:var(--branco);
-    margin-bottom: 200px;
-    margin-top: 110px;
+    margin-bottom: 100px;
+    margin-top: 0px;
     }
     
     ul {
@@ -3081,7 +3096,7 @@ input:invalid {
     width: 144px;
     height: 60px;
     gap: 24px;
-    margin-top: 400px;
+    margin-top: 250px;
     }
 
     .item__formulario{
