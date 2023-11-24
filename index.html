@@ -14,7 +14,9 @@
         
             <nav class="navbar" id="navbar">
                 <img class="menu__mobile" src="./assets/Header/Menu mobileSVG.svg" alt="Menu da página">
-                <span class= menu__mobile onclick="changeMenu()"></span>
+                
+                <span class= menu__mobile onclick="changeMenuMobile()"></span>
+                <span class= menu__mobile onclick="changeMenuTablet()"></span>
                     <script src="./javascript/MenuHamburger.js"></script>
                     <script src="./javascript/MenuHamburgerTablet.js"></script>
                     <img class="logo__design" src="./assets/Header/Logo.png" alt="Logo Design Systems">
@@ -38,10 +40,33 @@
                     </div>
                     
                     <div class="menu__header" id="menu__header">
-                        <div class="menu__items">
-                          <a href="">A empresa</a>
-                          <a href="">Projetos de Alta complexidade</a>
-                          <a href="">Fale Conosco</a>
+                        <div class="menu__items" id="menu__items">
+                            <div class="container__hamburger" id="container__hamburger">
+                                <img class="cloce__hamburger" src="./assets/Header/X.svg" id="cloce__hamburger">
+                                <span class= cloce__hamburger onclick="fecharMenu()"></span>
+                                <button class="botoes__estilizados">
+                                    <span class="nav__textobotao">Sobre Nós</span>
+                                </button>
+                        
+                                <button class="botoes__estilizados">
+                                    <span class="nav__textobotao">Como trabalhamos</span>
+                                </button>
+                        
+                                <button class="botoes__estilizados">
+                                    <span class="nav__textobotao">Vantagens</span>
+                                </button>
+                                
+                                <button class="botoes__estilizados">
+                                    <span class="nav__textobotao">Serviços</span>
+                                </button>
+                
+                                <button class="botoes__estilizados">
+                                    <span class="nav__textobotao">Contatos</span>
+                                </button>
+                        
+                            </div>
+
+                        </div>
                     </div>
                     
             </nav>

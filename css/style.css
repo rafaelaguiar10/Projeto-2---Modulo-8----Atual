@@ -42,20 +42,56 @@ header{
 
 }
 
-.menu__header{
-    display: none;
-    margin-top: 50px;
-    flex-direction: column;
-    height: 68px;
-    font-weight: 600;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.menu__items{
+.container__hamburger{
+    padding: 50px 30px 30px 30px;
+    width: 220px;
+    height: 300px;
+    border: none;
     display: flex;
     flex-direction: column;
-    margin-bottom: 500px;
+    gap: 5px;
+    border-radius: 0px 0px 10px 10px;
+    margin-left: -40px;
 }
+
+.menu__header{
+    display: none;
+   
+}
+
+.botoes__estilizados{
+    width: 130px;
+    height: 60px;
+    border-radius: 8px;
+    border: 1px solid #D3D7DB;
+    padding: 18px 20px 18px 20px;
+    gap: 10px;
+    background-color: var(--lilasheader);
+    cursor: pointer;
+    }
+
+.cloce__hamburger{
+    display: none;
+    width: 18px;
+    height: 18px;
+    margin-top: -20px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    
+}
+
+
+
+.nav__textobotao{
+    width: 40px;
+    height: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 10px;
+    color:var(--pretofooter);
+    }
 
 .container__botoes{
     display: none;
@@ -1105,22 +1141,56 @@ header{
     border-radius: 0px 0px 32px 32px;
 }
 
+.container__hamburger{
+    padding: 50px 30px 30px 30px;
+    width: 220px;
+    height: 300px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 0px 0px 10px 10px;
+    margin-left: -40px;
+}
 
 .menu__header{
     display: none;
-    margin-top: 30px;
-    flex-direction: column;
-    height: 45px;
+   
+}
+
+.botoes__estilizados{
+    width: 130px;
+    height: 60px;
+    border-radius: 8px;
+    border: 1px solid #D3D7DB;
+    padding: 18px 20px 18px 20px;
+    gap: 10px;
+    background-color: var(--lilasheader);
+    cursor: pointer;
+    }
+
+.cloce__hamburger{
+    display: none;
+    width: 18px;
+    height: 18px;
+    margin-top: -20px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    
+}
+
+.nav__textobotao{
+    width: 40px;
+    height: 15px;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-family: 'Open Sans', sans-serif;
-
+    font-size: 14px;
+    line-height: 10px;
+    color:var(--pretofooter);
     }
 
-.menu__items{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 200px;
-    }
+
 
 .container__botoes{
     display: none;
